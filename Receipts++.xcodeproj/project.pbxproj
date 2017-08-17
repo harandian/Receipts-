@@ -14,6 +14,7 @@
 		726B6D411F4626CA00711933 /* Receipts__.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 726B6D3F1F4626CA00711933 /* Receipts__.xcdatamodeld */; };
 		726B6D431F4626CA00711933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726B6D421F4626CA00711933 /* Assets.xcassets */; };
 		726B6D461F4626CA00711933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726B6D441F4626CA00711933 /* LaunchScreen.storyboard */; };
+		726B6D521F462A1700711933 /* AddRecieptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 726B6D511F462A1700711933 /* AddRecieptViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		726B6D421F4626CA00711933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		726B6D451F4626CA00711933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		726B6D471F4626CA00711933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		726B6D501F462A1700711933 /* AddRecieptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddRecieptViewController.h; path = ../AddRecieptViewController.h; sourceTree = "<group>"; };
+		726B6D511F462A1700711933 /* AddRecieptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddRecieptViewController.m; path = ../AddRecieptViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				726B6D371F4626CA00711933 /* AppDelegate.m */,
 				726B6D391F4626CA00711933 /* ViewController.h */,
 				726B6D3A1F4626CA00711933 /* ViewController.m */,
+				726B6D501F462A1700711933 /* AddRecieptViewController.h */,
+				726B6D511F462A1700711933 /* AddRecieptViewController.m */,
 				726B6D3C1F4626CA00711933 /* Main.storyboard */,
 				726B6D421F4626CA00711933 /* Assets.xcassets */,
 				726B6D441F4626CA00711933 /* LaunchScreen.storyboard */,
@@ -155,6 +160,7 @@
 			files = (
 				726B6D411F4626CA00711933 /* Receipts__.xcdatamodeld in Sources */,
 				726B6D3B1F4626CA00711933 /* ViewController.m in Sources */,
+				726B6D521F462A1700711933 /* AddRecieptViewController.m in Sources */,
 				726B6D381F4626CA00711933 /* AppDelegate.m in Sources */,
 				726B6D351F4626CA00711933 /* main.m in Sources */,
 			);
