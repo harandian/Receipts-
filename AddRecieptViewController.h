@@ -6,8 +6,20 @@
 //  Copyright © 2017 Hirad. All rights reserved.
 //
 
-#import "ViewController.h"
+//#import "ViewController.h"
+#import "Receipt+CoreDataClass.h"
+#import "Tag+CoreDataClass.h"
+#import "AppDelegate.h"
 
-@interface AddRecieptViewController : ViewController
+@interface AddRecieptViewController : UIViewController <UITextFieldDelegate, UITableViewDelegate,UITableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UITextField *amount;
+@property (weak, nonatomic) IBOutlet UITextField *note;
+@property (nonatomic, strong) NSArray<NSString*> *tagList;
+
+
+
+
+
 
 @end
